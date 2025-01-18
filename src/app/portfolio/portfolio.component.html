@@ -6,7 +6,7 @@
       <div class="row gy-5 mt-1 mb-4">
 
         @for (item of items; track $index) {
-          <div class="col-4">
+          <div class="col-md-4 col-6">
             <div class="item" (click)="selectedimage(item, $index)">
               <img src="{{item}}" class="w-100" alt="item image">
               <div class="layer">

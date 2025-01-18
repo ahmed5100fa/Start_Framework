@@ -2,7 +2,7 @@ nav {
   background-color: #2C3E50;
 }
 
-.link-active {
+.router-link-active {
   background-color: #1ABC9C;
   padding: 10px;
   border-radius: 10px;
